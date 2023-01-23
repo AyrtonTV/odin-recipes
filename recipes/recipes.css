@@ -22,7 +22,7 @@ img {
     box-shadow: 10px 10px 13px #43382c;
 }
 
-div {
+.contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,4 +47,24 @@ h1, h2 {
     font-weight: 700;
     color: #632a02;
     text-shadow: 2px 2px 4px #43382c;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    background-color: #3c170078;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+
+a:hover {
+    background-color: #f0f8ffa9;
+    color: #3c1700fa;
 }
