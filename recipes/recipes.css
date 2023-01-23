@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 body {
     background-color: #e0c9a0;
@@ -16,7 +19,7 @@ img {
     border-radius: 50%;
     margin: 30px auto;
     display: block;
-    box-shadow: 10px 10px 13px rgb(67, 56, 44);
+    box-shadow: 10px 10px 13px #43382c;
 }
 
 div {
@@ -25,10 +28,23 @@ div {
     align-items: center;
     border-radius: 8px;
     margin: 50px 50px 30px;
-    background-color: #f8c37223;
-    box-shadow: 5px 5px 8px rgb(67, 56, 44);
+    background-color: #b78f545b;
+    box-shadow: -5px -5px 8px #43382c;
 }
 
 h2, p, ol, ul {
     margin: 15px 0px;
+    padding: 20px 10%;
+}
+
+p, li {
+    color: #fceeff;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #632a02;
+    text-shadow: 2px 2px 4px #43382c;
 }
